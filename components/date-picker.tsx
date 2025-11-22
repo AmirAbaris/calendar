@@ -17,7 +17,7 @@ export default function DatePicker(props: Props) {
   const { visible, onClose, selectedDate, onSelectDate, minDate, maxDate } =
     props;
   // first i'll code dirty here, then i'll improve codebase
-  // in this project my main focus is to code without ai tools to keep my skills intact
+  // in this project my main focus is to code with less ai tools to keep my skills intact -- it was boring tbh a little bit
 
   const WEEKDAYS = ["ش", "ی", "د", "س", "چ", "پ", "ج"];
   const MONTHS = [
